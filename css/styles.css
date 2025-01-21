@@ -29,12 +29,22 @@ p {
 }
 
 /* Style labels and inputs */
+
 label {
     display: block;
     font-size: 14px;
     margin-bottom: 6px;
     color: #333;
 }
+
+#submitButton {
+    background-color: #ccc;
+  }
+  
+  #submitButton.valid {
+    background-color: green;
+  }
+
 
 input {
     width: 100%;
